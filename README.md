@@ -1,3 +1,7 @@
+# This is stock copy of CRA docerized!
+happy coding!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
