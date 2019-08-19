@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  frontend:
+    container_name: CRA
+    build: _docker/cra
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
