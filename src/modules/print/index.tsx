@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-// @ts-ignore
 import {Modal} from "react-router-modal";
 
 export const Print: React.FC = () => {

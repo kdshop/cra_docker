@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import {ComposeModule, HomeModule, PrintModule} from "./modules";
 import {Eula, NotFound} from "./modules/core/components";
-// @ts-ignore
 import { ModalContainer, ModalRoute } from 'react-router-modal';
 import 'react-router-modal/css/react-router-modal.css';
 
