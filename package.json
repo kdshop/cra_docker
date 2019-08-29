@@ -4,16 +4,22 @@
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.17",
+    "@types/js-cookie": "^2.2.2",
     "@types/node": "12.7.2",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.8.5",
+    "@types/react-router-dom": "^4.3.5",
+    "js-cookie": "^2.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-router-modal": "^1.5.2",
     "react-scripts": "3.1.1",
     "typescript": "3.5.3"
   },
   "scripts": {
     "start": "node ./node_modules/react-scripts/scripts/start.js",
+    "connect": "docker exec -it CRA bash",
     "build": "node ./node_modules/react-scripts/scripts/build.js",
     "test": "node ./node_modules/react-scripts/scripts/test.js",
     "eject": "node ./node_modules/react-scripts/scripts/eject.js"
